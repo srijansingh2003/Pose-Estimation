@@ -11,3 +11,7 @@
 * Clone this repository in your local environment by running the code on your bash.
 
 `git clone https://github.com/YOUR-USERNAME/Pose-Estimation.git`
+
+Now, install the required **packages**:
+
+* `pip install opencv-python`
