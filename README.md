@@ -32,3 +32,30 @@ while True:
     cv2.imshow("Video", vid)
     cv2.waitKey(1)
 ```
+
+* To show fps count on the screen
+
+```python
+import time
+import cv2 as cv
+
+pTime = 0
+cTime = time.time()
+fps = 1 / (cTime - pTime)
+pTime = cTime
+cv.putText(flipped, f'FPS:{int(fps)}', (10, 70),
+               cv.FONT_HERSHEY_PLAIN, 3, (0, 255, 0), 2)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
