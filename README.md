@@ -48,7 +48,7 @@ cv.putText(flipped, f'FPS:{int(fps)}', (10, 70),
 ```
 
 
-
+* `pip install mediapipe`
 
 
 
